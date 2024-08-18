@@ -6,6 +6,9 @@ fun crearPeces() {
 
     println("El tiburón es de color: ${tiburon.color}")
     println("El pez payaso es de color: ${pezPayaso.color}")
+
+    tiburon.comer()
+    pezPayaso.comer()
 }
 
 fun main() {
